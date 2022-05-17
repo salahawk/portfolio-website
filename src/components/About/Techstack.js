@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { SiSolidity, SiRust } from "react-icons/si";
+import { FaHardHat } from "react-icons/fa";
 import {
   DiJavascript1,
   DiReact,
@@ -18,6 +20,15 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSolidity />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRust />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaHardHat />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
