@@ -15,6 +15,7 @@ import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiCairometro,
 } from "react-icons/si";
 
 function Techstack() {
@@ -28,6 +29,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaHardHat />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCairometro />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
