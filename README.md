@@ -3,7 +3,7 @@
   <a href="https://crazy-dev-hero.netlify.app/" target="_blank">Crazy Dev Hero on Netlify</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
@@ -20,9 +20,9 @@
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/crazydevhero/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/crazydevhero/portfolio-website/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/crazydevhero/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/crazydevhero/portfolio-website/issues">Request Feature</a>
 </h3>
 
 ## TL;DR
