@@ -5,7 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaTelegramPlane, FaDiscord } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -59,6 +59,16 @@ function Footer() {
                 className="icon-colour home-social-icons"
               >
                 <FaTelegramPlane />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://discord.com/users/CrazyDevHero#7119"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <FaDiscord />
               </a>
             </li>
           </ul>
