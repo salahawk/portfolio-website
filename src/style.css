@@ -390,8 +390,8 @@ button:focus {
 
 .social-icons {
   display: inline-block !important;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .icon-colour {

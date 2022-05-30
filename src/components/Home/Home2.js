@@ -7,7 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaTelegramPlane, FaDiscord } from "react-icons/fa";
+import { FaTelegramPlane, FaDiscord, FaSkype } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -113,6 +113,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <FaDiscord />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://join.skype.com/invite/mxO32NNjcXNw"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaSkype />
                 </a>
               </li>
             </ul>
