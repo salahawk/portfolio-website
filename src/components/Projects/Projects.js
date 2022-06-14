@@ -7,8 +7,8 @@ import nodesquared from "../../Assets/Projects/nodesquared.png";
 import nftlocker from "../../Assets/Projects/nftlocker.png";
 import trillest from "../../Assets/Projects/trillest.png";
 import defiswap from "../../Assets/Projects/defiswap.png";
-import deopp from "../../Assets/Projects/deopp.png";
-import estoken from "../../Assets/Projects/estoken.png";
+import chadscanner from "../../Assets/Projects/chadscanner.png";
+import degen from "../../Assets/Projects/degen.png";
 
 function Projects() {
   return (
@@ -46,7 +46,7 @@ function Projects() {
               isBlog={false}
               title="Trillest"
               description="Collection of 3 unique Trillest Nodes backed by $TRILL"
-              link="https://nftlocker.io/"
+              link="https://app.trillest.finance/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -60,20 +60,20 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={deopp}
+              imgPath={chadscanner}
               isBlog={false}
-              title="DEOPP"
-              description="The Decentralized Empowerment Of Prospering People"
-              link="https://defiswap.io/"
+              title="ChadScanner"
+              description="Telegram Bot monitoring Uniswap to post a new alert for each new pair."
+              link="https://t.me/chad_scanner_staging"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={estoken}
+              imgPath={degen}
               isBlog={false}
-              title="ESToken"
-              description="A P2P digital currency that enables you to send and receive funds at a lower cost due to its fully decentralised blockchain system"
-              link="https://estt.io/"
+              title="DegenHounds"
+              description="Betting game on Ethereum & Polygon. Winners can take double their deposit, and others lose all."
+              link="https://www.degenhounds.com/"
             />
           </Col>
         </Row>
