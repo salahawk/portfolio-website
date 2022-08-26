@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   // AiOutlineTwitter,
-  AiFillInstagram,
+  // AiFillInstagram,
 } from "react-icons/ai";
 import { FaTelegramPlane, FaDiscord, FaSkype } from "react-icons/fa";
 
@@ -85,7 +85,7 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li> */}
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/crazydevhero"
                   target="_blank"
@@ -94,7 +94,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://t.me/crazydevhero"
