@@ -12,6 +12,7 @@ import degen from "../../Assets/Projects/degen.png";
 import cgAfrica from "../../Assets/Projects/cgAfrica.png";
 import portfolder from "../../Assets/Projects/portfolder.png";
 import picknmelt from "../../Assets/Projects/picknmelt.png";
+import audi0 from "../../Assets/Projects/audi0.png";
 
 function Projects() {
   return (
@@ -104,6 +105,15 @@ function Projects() {
               title="Pick n Melt"
               description="Highly scented (or unscented) soy candles, wax melts, diffusers and sprays. Over 500 scents to pick from! All products are hand made by our quirky team in Gosport, UK."
               link="https://picknmelt.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={audi0}
+              isBlog={false}
+              title="Audi0"
+              description="Art / Music NFT store with crypto mayment integrated by Athar"
+              link="https://audi0.agency/"
             />
           </Col>
         </Row>
