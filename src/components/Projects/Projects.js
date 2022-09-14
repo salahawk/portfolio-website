@@ -13,6 +13,7 @@ import cgAfrica from "../../Assets/Projects/cgAfrica.png";
 import portfolder from "../../Assets/Projects/portfolder.png";
 import picknmelt from "../../Assets/Projects/picknmelt.png";
 import audi0 from "../../Assets/Projects/audi0.png";
+import flokichain from "../../Assets/Projects/flokichain.jpg";
 
 function Projects() {
   return (
@@ -114,6 +115,15 @@ function Projects() {
               title="Audi0"
               description="Art / Music NFT store with crypto mayment integrated by Athar"
               link="https://audi0.agency/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={flokichain}
+              isBlog={false}
+              title="FlokiChain Swap"
+              description="FlokiChain targeted DEX/AMM forked from Uniswap"
+              link="https://flokichainerc.com/"
             />
           </Col>
         </Row>
