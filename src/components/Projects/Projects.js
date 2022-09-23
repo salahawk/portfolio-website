@@ -13,7 +13,8 @@ import cgAfrica from "../../Assets/Projects/cgAfrica.png";
 import portfolder from "../../Assets/Projects/portfolder.png";
 import picknmelt from "../../Assets/Projects/picknmelt.png";
 import audi0 from "../../Assets/Projects/audi0.png";
-import flokichain from "../../Assets/Projects/flokichain.jpg";
+import folkichain from "../../Assets/Projects/folkichain.jpg";
+import digitalcurrency from "../../Assets/Projects/digitalcurrency.png";
 
 function Projects() {
   return (
@@ -119,11 +120,20 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={flokichain}
+              imgPath={folkichain}
               isBlog={false}
-              title="FlokiChain Swap"
-              description="FlokiChain targeted DEX/AMM forked from Uniswap"
+              title="FolkiChain Swap"
+              description="Folkichain token targeted DEX / AMM - forked Uniswap"
               link="https://flokichainerc.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={digitalcurrency}
+              isBlog={false}
+              title="Top Digital Currencies"
+              description="Trending coins, coins' price and transactions"
+              link="https://crazydevhero.github.io/digital-currency/"
             />
           </Col>
         </Row>
