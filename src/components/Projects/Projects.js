@@ -133,7 +133,7 @@ function Projects() {
               isBlog={false}
               title="Top Digital Currencies"
               description="Trending coins, coins' price and transactions"
-              link="https://crazydevhero.github.io/digital-currency/"
+              link="https://salahawk.github.io/digital-currency/"
             />
           </Col>
         </Row>

@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://crazy-dev-hero.netlify.app/" target="_blank">Crazy Dev Hero on Netlify</a>
+  <a href="https://salahawk.netlify.app/" target="_blank">salahawk on Netlify</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img.png" />
@@ -13,25 +13,25 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/crazydevhero/portfolio-website?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/crazydevhero/portfolio-website?color=red&logo=github&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/salahawk/portfolio-website?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/salahawk/portfolio-website?color=red&logo=github&style=for-the-badge)
 
 </center>
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/crazydevhero/portfolio-website/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/salahawk/portfolio-website/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/crazydevhero/portfolio-website/issues">Request Feature</a>
+    <a href="https://github.com/salahawk/portfolio-website/issues">Request Feature</a>
 </h3>
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [crazydevhero](https://github.com/crazydevhero/portfolio-website). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [salahawk](https://github.com/salahawk/portfolio-website). Thanks!
 
 ## Built With
 
-My personal portfolio <a href="https://crazy-dev-hero.netlify.app/" target="_blank">Crazy Dev Hero</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://salahawk.netlify.app/" target="_blank">salahawk</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
