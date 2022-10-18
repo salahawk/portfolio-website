@@ -15,6 +15,7 @@ import picknmelt from "../../Assets/Projects/picknmelt.png";
 import audi0 from "../../Assets/Projects/audi0.png";
 import folkichain from "../../Assets/Projects/folkichain.jpg";
 import digitalcurrency from "../../Assets/Projects/digitalcurrency.png";
+import smolrunners from "../../Assets/Projects/smolrunners.png";
 
 function Projects() {
   return (
@@ -125,6 +126,15 @@ function Projects() {
               title="FolkiChain Swap"
               description="Folkichain token targeted DEX / AMM - forked Uniswap"
               link="https://flokichainerc.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={smolrunners}
+              isBlog={false}
+              title="SmolRunners"
+              description="NFT minting Dapp on Flow blockchain"
+              link="https://flow-nft.netlify.com"
             />
           </Col>
           <Col md={4} className="project-card">
