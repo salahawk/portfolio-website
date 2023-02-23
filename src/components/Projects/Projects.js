@@ -16,6 +16,7 @@ import audi0 from "../../Assets/Projects/audi0.png";
 import folkichain from "../../Assets/Projects/folkichain.jpg";
 import digitalcurrency from "../../Assets/Projects/digitalcurrency.png";
 import smolrunners from "../../Assets/Projects/smolrunners.png";
+import searchbook from "../../Assets/Projects/search-book-online.png";
 
 function Projects() {
   return (
@@ -36,6 +37,24 @@ function Projects() {
               title="Node Squared"
               description="Node Squared aims to acquire as many Strongblock Nodes as possible, and distribute the revenue back to token holders through buy back and burns on ETH & AVA."
               link="https://dashboard.nodesquared.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={digitalcurrency}
+              isBlog={false}
+              title="Top Digital Currencies"
+              description="Trending coins, coins' price and transactions"
+              link="https://salahawk.github.io/digital-currency/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chadscanner}
+              isBlog={false}
+              title="ChadScanner"
+              description="Telegram Bot monitoring Uniswap to post a new alert for each new pair."
+              link="https://t.me/chad_scanner_staging"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -67,11 +86,11 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chadscanner}
+              imgPath={searchbook}
               isBlog={false}
-              title="ChadScanner"
-              description="Telegram Bot monitoring Uniswap to post a new alert for each new pair."
-              link="https://t.me/chad_scanner_staging"
+              title="Online Book Store"
+              description="Search books online by title"
+              link="https://book-search-online.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -135,15 +154,6 @@ function Projects() {
               title="SmolRunners"
               description="NFT minting Dapp on Flow blockchain"
               link="https://flow-nft.netlify.com"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={digitalcurrency}
-              isBlog={false}
-              title="Top Digital Currencies"
-              description="Trending coins, coins' price and transactions"
-              link="https://salahawk.github.io/digital-currency/"
             />
           </Col>
         </Row>
