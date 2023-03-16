@@ -2,9 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaTelegramPlane, FaDiscord, FaSkype } from "react-icons/fa";
 
 function Home2() {
@@ -22,22 +20,25 @@ function Home2() {
               <br />
               <br />I am fluent in languages like
               <i>
-                <b className="purple"> Solidity, Rust, Cairo, Golang, C++, Javascript and Python. </b>
+                <b className="purple">
+                  {" "}
+                  C++, Javascript, Node.js, Python, Golang, Rust and PHP.{" "}
+                </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Blockchain | Full-stack Technologies and Products </b> and
-                also in areas related to{" "}
                 <b className="purple">
-                  Cyber Security | Reverse Engineering.
-                </b>
+                  Blockchain | Full-stack Technologies and Products{" "}
+                </b>{" "}
+                and also in areas related to <b className="purple">AI/ML.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing blockchain-related products
-              with <b className="purple">Solidity | Rust | Cairo | Golang</b> and
+              Whenever possible, I also apply my passion for developing
+              blockchain-related products with{" "}
+              <b className="purple">Solidity | Rust | Cairo | Golang</b> and
               <i>
                 <b className="purple">
                   {" "}
