@@ -16,7 +16,7 @@ import audi0 from "../../Assets/Projects/audi0.png";
 import folkichain from "../../Assets/Projects/folkichain.jpg";
 import digitalcurrency from "../../Assets/Projects/digitalcurrency.png";
 import smolrunners from "../../Assets/Projects/smolrunners.png";
-import searchbook from "../../Assets/Projects/search-book-online.png";
+import chatgptdiscord from "../../Assets/Projects/chatgpt-discord.png";
 
 function Projects() {
   return (
@@ -52,9 +52,18 @@ function Projects() {
             <ProjectCard
               imgPath={chadscanner}
               isBlog={false}
-              title="ChadScanner"
+              title="Chad Scanner"
               description="Telegram Bot monitoring Uniswap to post a new alert for each new pair."
               link="https://t.me/chad_scanner_staging"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatgptdiscord}
+              isBlog={false}
+              title="ChatGPT Discord Bot"
+              description="Discord bot using ChatGPT by OpenAI for virtual assistance"
+              link="https://discord.gg/kEX5GjHW"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -82,15 +91,6 @@ function Projects() {
               title="DefiSwap"
               description="DEX platform just like Uniswap, Pancakeswap running on BSC"
               link="https://defiswap.io/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={searchbook}
-              isBlog={false}
-              title="Online Book Store"
-              description="Search books online by title"
-              link="https://book-search-online.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
