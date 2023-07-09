@@ -7,16 +7,12 @@ import nodesquared from "../../Assets/Projects/nodesquared.png";
 import nftlocker from "../../Assets/Projects/nftlocker.png";
 import trillest from "../../Assets/Projects/trillest.png";
 import defiswap from "../../Assets/Projects/defiswap.png";
-import chadscanner from "../../Assets/Projects/chadscanner.png";
-import degen from "../../Assets/Projects/degen.png";
-import cgAfrica from "../../Assets/Projects/cgAfrica.png";
 import portfolder from "../../Assets/Projects/portfolder.png";
-import picknmelt from "../../Assets/Projects/picknmelt.png";
-import audi0 from "../../Assets/Projects/audi0.png";
-import folkichain from "../../Assets/Projects/folkichain.jpg";
+import flokichain from "../../Assets/Projects/flokichain.jpg";
 import digitalcurrency from "../../Assets/Projects/digitalcurrency.png";
 import smolrunners from "../../Assets/Projects/smolrunners.png";
 import chatgptdiscord from "../../Assets/Projects/chatgpt-discord.png";
+import bitapai from "../../Assets/Projects/bitapai.png";
 
 function Projects() {
   return (
@@ -50,11 +46,11 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chadscanner}
+              imgPath={bitapai}
               isBlog={false}
-              title="Chad Scanner"
-              description="Telegram Bot monitoring Uniswap to post a new alert for each new pair."
-              link="https://t.me/chad_scanner_staging"
+              title="BitAPAI"
+              description="API access to the Bittensor Network (Prompt + Benchmark). Through BitAPAI keys you can access the Bittensor prompting network through many common languages such as Python, Node.js, cURL, Dart, Golang, oCaml, PHP, R, Rust & Swift."
+              link="https://bitapai.io"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -95,24 +91,6 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={degen}
-              isBlog={false}
-              title="DegenHounds"
-              description="Betting game on Ethereum & Polygon. Winners can take double their deposit, and others lose all."
-              link="https://www.degenhounds.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={cgAfrica}
-              isBlog={false}
-              title="CGAfrica"
-              description="The leading online animation community in Africa connecting professionals together in a collaborative environment."
-              link="https://cgafrica.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={portfolder}
               isBlog={false}
               title="PortFolder"
@@ -122,25 +100,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={picknmelt}
-              isBlog={false}
-              title="Pick n Melt"
-              description="Highly scented (or unscented) soy candles, wax melts, diffusers and sprays. Over 500 scents to pick from! All products are hand made by our quirky team in Gosport, UK."
-              link="https://picknmelt.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={audi0}
-              isBlog={false}
-              title="Audi0"
-              description="Art / Music NFT store with crypto mayment integrated by Athar"
-              link="https://audi0.agency/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={folkichain}
+              imgPath={flokichain}
               isBlog={false}
               title="FolkiChain Swap"
               description="Folkichain token targeted DEX / AMM - forked Uniswap"
